@@ -3,23 +3,6 @@
 
 #include <Adafruit_MLX90614.h>
 
-#define NOTE_Cd1 277
-#define NOTE_D1 294
-#define NOTE_E1 330
-#define NOTE_F1 349
-#define NOTE_G1 392
-#define NOTE_DH2 661
-
-int music[] = {
-  NOTE_E1, NOTE_E1, NOTE_E1,
-  NOTE_E1, NOTE_E1, NOTE_E1,
-  NOTE_E1, NOTE_G1, NOTE_Cd1, NOTE_D1, NOTE_E1,
-  NOTE_F1, NOTE_F1, NOTE_F1, NOTE_F1,
-  NOTE_F1, NOTE_E1, NOTE_E1,
-  NOTE_E1, NOTE_D1, NOTE_D1, NOTE_E1, NOTE_D1,
-  NOTE_G1
-};
-
 #define MEASUREMENT_INTERVAL  1000
 #define BUTTON_INTERVAL 200
 #define LINE_MARGIN  50
